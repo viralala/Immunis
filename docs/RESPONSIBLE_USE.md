@@ -1,9 +1,6 @@
 # Responsible use
 
-This repository is a **defensive** research artefact built for the Mastercard
-Innovation Challenge 2026. It exists so that payment fraud detection can be
-tested against attacks before those attacks arrive. Deliberate lines were drawn
-in its design, and they are documented here rather than left implicit.
+This repository is a **defensive** research artefact for testing payment fraud detection against emerging attacks. Deliberate lines were drawn in its design to prioritize safety and responsible disclosure, and they are documented here rather than left implicit.
 
 ## No real data, ever
 

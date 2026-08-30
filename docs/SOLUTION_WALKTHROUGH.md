@@ -1,7 +1,5 @@
 # IMMUNIS — Solution Walkthrough
 
-**Mastercard Innovation Challenge 2026 · AI Defense Lab for Payment Security**
-
 *An adversarial immune system for payment networks.*
 
 ---

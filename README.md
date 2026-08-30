@@ -50,7 +50,6 @@ pip install -r engine/requirements.txt && uvicorn api.main:app --port 8000
 
 | Path | What it is |
 |---|---|
-| [`IDEA.md`](IDEA.md) | The idea, the business case, and why it wins — read this first |
 | `engine/immunis/identify/` | The Attack Atlas: 42 typed vectors + a composition-based discovery agent |
 | `engine/immunis/generate/` | Population, behaviour, 14 attack injectors, conversation generator, mule graph |
 | `engine/immunis/defend/` | Causal features, four-channel detector, calibration, evaluation, reason codes |
@@ -58,7 +57,7 @@ pip install -r engine/requirements.txt && uvicorn api.main:app --port 8000
 | `engine/immunis/loop/` | Co-evolution orchestrator and Time-to-Immunity |
 | `api/` | FastAPI service: live scoring, on-demand simulation, arena SSE stream |
 | `web/` | Next.js prototype — landing page, Atlas, Studio, Defense, Arena, Live Console |
-| `docs/` | Architecture, attack atlas write-up, results, solution walkthrough, responsible use |
+| `docs/` | Architecture, attack atlas write-up, results, responsible use guidelines |
 | `artifacts/` | Generated JSON — the single source of truth for every figure on the site |
 
 ---

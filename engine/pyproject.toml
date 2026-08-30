@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "immunis"
+version = "1.0.0"
+description = "Adversarial immune system for payment networks — Mastercard Innovation Challenge 2026"
+readme = "../README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "scikit-learn>=1.4",
+  "pandas>=2.0",
+  "networkx>=3.0",
+]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn[standard]>=0.29", "pydantic>=2.6"]
+llm = ["anthropic>=0.40"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+immunis = "immunis.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["immunis*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

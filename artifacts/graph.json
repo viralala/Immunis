@@ -1,0 +1,647 @@
+{
+  "campaign_id": "CMP-ML-00000",
+  "nodes": [
+    {
+      "id": "A0001947",
+      "label": "A0…1947",
+      "bank": "AXIS",
+      "age_days": 712.8,
+      "is_mule": false,
+      "layer": 0,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "SA0000016",
+      "label": "SA…0016",
+      "bank": "IDFC",
+      "age_days": 27.3,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 7,
+      "out_degree": 5
+    },
+    {
+      "id": "A0001295",
+      "label": "A0…1295",
+      "bank": "HDFC",
+      "age_days": 761.9,
+      "is_mule": false,
+      "layer": 0,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "A0001789",
+      "label": "A0…1789",
+      "bank": "AXIS",
+      "age_days": 889.6,
+      "is_mule": false,
+      "layer": 0,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "A0001418",
+      "label": "A0…1418",
+      "bank": "YES",
+      "age_days": 893.1,
+      "is_mule": false,
+      "layer": 0,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "A0001953",
+      "label": "A0…1953",
+      "bank": "BOB",
+      "age_days": 1257.5,
+      "is_mule": false,
+      "layer": 0,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "A0000574",
+      "label": "A0…0574",
+      "bank": "PNB",
+      "age_days": 379.3,
+      "is_mule": false,
+      "layer": 0,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "A0001021",
+      "label": "A0…1021",
+      "bank": "INDUSIND",
+      "age_days": 861.4,
+      "is_mule": false,
+      "layer": 0,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "SA0000017",
+      "label": "SA…0017",
+      "bank": "INDUSIND",
+      "age_days": 24.0,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "id": "SA0000022",
+      "label": "SA…0022",
+      "bank": "CANARA",
+      "age_days": 13.6,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000023",
+      "label": "SA…0023",
+      "bank": "FEDERAL",
+      "age_days": 22.3,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000024",
+      "label": "SA…0024",
+      "bank": "YES",
+      "age_days": 12.8,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000025",
+      "label": "SA…0025",
+      "bank": "ICICI",
+      "age_days": 24.3,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000026",
+      "label": "SA…0026",
+      "bank": "HDFC",
+      "age_days": 3.2,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000021",
+      "label": "SA…0021",
+      "bank": "YES",
+      "age_days": 13.8,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "id": "SA0000042",
+      "label": "SA…0042",
+      "bank": "YES",
+      "age_days": 23.5,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000043",
+      "label": "SA…0043",
+      "bank": "FEDERAL",
+      "age_days": 22.7,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000044",
+      "label": "SA…0044",
+      "bank": "SBI",
+      "age_days": 1.3,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000045",
+      "label": "SA…0045",
+      "bank": "ICICI",
+      "age_days": 3.6,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000046",
+      "label": "SA…0046",
+      "bank": "PNB",
+      "age_days": 21.2,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000018",
+      "label": "SA…0018",
+      "bank": "ICICI",
+      "age_days": 7.1,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "id": "SA0000027",
+      "label": "SA…0027",
+      "bank": "SBI",
+      "age_days": 17.9,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000028",
+      "label": "SA…0028",
+      "bank": "HDFC",
+      "age_days": 9.9,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000029",
+      "label": "SA…0029",
+      "bank": "HDFC",
+      "age_days": 9.8,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000030",
+      "label": "SA…0030",
+      "bank": "BOB",
+      "age_days": 1.5,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000031",
+      "label": "SA…0031",
+      "bank": "PNB",
+      "age_days": 0.5,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000019",
+      "label": "SA…0019",
+      "bank": "CANARA",
+      "age_days": 21.3,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "id": "SA0000032",
+      "label": "SA…0032",
+      "bank": "FEDERAL",
+      "age_days": 7.9,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000033",
+      "label": "SA…0033",
+      "bank": "INDUSIND",
+      "age_days": 11.0,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000034",
+      "label": "SA…0034",
+      "bank": "HDFC",
+      "age_days": 2.4,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000035",
+      "label": "SA…0035",
+      "bank": "AXIS",
+      "age_days": 21.9,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000036",
+      "label": "SA…0036",
+      "bank": "YES",
+      "age_days": 19.5,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000020",
+      "label": "SA…0020",
+      "bank": "PNB",
+      "age_days": 9.0,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "id": "SA0000037",
+      "label": "SA…0037",
+      "bank": "AXIS",
+      "age_days": 16.2,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000038",
+      "label": "SA…0038",
+      "bank": "PNB",
+      "age_days": 22.7,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000039",
+      "label": "SA…0039",
+      "bank": "HDFC",
+      "age_days": 7.5,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000040",
+      "label": "SA…0040",
+      "bank": "RBL",
+      "age_days": 18.2,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SA0000041",
+      "label": "SA…0041",
+      "bank": "AU",
+      "age_days": 4.9,
+      "is_mule": true,
+      "layer": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    }
+  ],
+  "edges": [
+    {
+      "src": "A0001947",
+      "dst": "SA0000016",
+      "amount": 1889.13,
+      "ts": 1782129039.200844,
+      "layer": 0
+    },
+    {
+      "src": "A0001295",
+      "dst": "SA0000016",
+      "amount": 113939.56,
+      "ts": 1782129079.902237,
+      "layer": 0
+    },
+    {
+      "src": "A0001789",
+      "dst": "SA0000016",
+      "amount": 5679.62,
+      "ts": 1782129130.15326,
+      "layer": 0
+    },
+    {
+      "src": "A0001418",
+      "dst": "SA0000016",
+      "amount": 27035.91,
+      "ts": 1782129193.294632,
+      "layer": 0
+    },
+    {
+      "src": "A0001953",
+      "dst": "SA0000016",
+      "amount": 4397.48,
+      "ts": 1782129265.124872,
+      "layer": 0
+    },
+    {
+      "src": "A0000574",
+      "dst": "SA0000016",
+      "amount": 2507.08,
+      "ts": 1782129306.577047,
+      "layer": 0
+    },
+    {
+      "src": "A0001021",
+      "dst": "SA0000016",
+      "amount": 21942.13,
+      "ts": 1782129456.882457,
+      "layer": 0
+    },
+    {
+      "src": "SA0000017",
+      "dst": "SA0000022",
+      "amount": 6589.69,
+      "ts": 1782136345.60739,
+      "layer": 2
+    },
+    {
+      "src": "SA0000017",
+      "dst": "SA0000023",
+      "amount": 6721.89,
+      "ts": 1782136365.352518,
+      "layer": 2
+    },
+    {
+      "src": "SA0000017",
+      "dst": "SA0000024",
+      "amount": 7138.34,
+      "ts": 1782136372.257085,
+      "layer": 2
+    },
+    {
+      "src": "SA0000017",
+      "dst": "SA0000025",
+      "amount": 6394.87,
+      "ts": 1782136381.819991,
+      "layer": 2
+    },
+    {
+      "src": "SA0000017",
+      "dst": "SA0000026",
+      "amount": 6697.48,
+      "ts": 1782136392.555208,
+      "layer": 2
+    },
+    {
+      "src": "SA0000021",
+      "dst": "SA0000042",
+      "amount": 5384.85,
+      "ts": 1782136965.357816,
+      "layer": 2
+    },
+    {
+      "src": "SA0000021",
+      "dst": "SA0000043",
+      "amount": 5156.91,
+      "ts": 1782136970.357816,
+      "layer": 2
+    },
+    {
+      "src": "SA0000021",
+      "dst": "SA0000044",
+      "amount": 4657.82,
+      "ts": 1782136983.519669,
+      "layer": 2
+    },
+    {
+      "src": "SA0000021",
+      "dst": "SA0000045",
+      "amount": 5332.03,
+      "ts": 1782136990.806028,
+      "layer": 2
+    },
+    {
+      "src": "SA0000021",
+      "dst": "SA0000046",
+      "amount": 4928.72,
+      "ts": 1782136998.841347,
+      "layer": 2
+    },
+    {
+      "src": "SA0000018",
+      "dst": "SA0000027",
+      "amount": 5384.44,
+      "ts": 1782137123.157799,
+      "layer": 2
+    },
+    {
+      "src": "SA0000018",
+      "dst": "SA0000028",
+      "amount": 5146.88,
+      "ts": 1782137128.972455,
+      "layer": 2
+    },
+    {
+      "src": "SA0000018",
+      "dst": "SA0000029",
+      "amount": 4608.43,
+      "ts": 1782137144.853052,
+      "layer": 2
+    },
+    {
+      "src": "SA0000018",
+      "dst": "SA0000030",
+      "amount": 4915.33,
+      "ts": 1782137161.399321,
+      "layer": 2
+    },
+    {
+      "src": "SA0000018",
+      "dst": "SA0000031",
+      "amount": 4487.6,
+      "ts": 1782137168.344632,
+      "layer": 2
+    },
+    {
+      "src": "SA0000019",
+      "dst": "SA0000032",
+      "amount": 6364.05,
+      "ts": 1782140784.530689,
+      "layer": 2
+    },
+    {
+      "src": "SA0000019",
+      "dst": "SA0000033",
+      "amount": 5910.5,
+      "ts": 1782140789.530689,
+      "layer": 2
+    },
+    {
+      "src": "SA0000019",
+      "dst": "SA0000034",
+      "amount": 6831.83,
+      "ts": 1782140795.659758,
+      "layer": 2
+    },
+    {
+      "src": "SA0000019",
+      "dst": "SA0000035",
+      "amount": 6003.19,
+      "ts": 1782140813.030167,
+      "layer": 2
+    },
+    {
+      "src": "SA0000019",
+      "dst": "SA0000036",
+      "amount": 6458.16,
+      "ts": 1782140820.943456,
+      "layer": 2
+    },
+    {
+      "src": "SA0000020",
+      "dst": "SA0000037",
+      "amount": 6175.08,
+      "ts": 1782145209.132481,
+      "layer": 2
+    },
+    {
+      "src": "SA0000020",
+      "dst": "SA0000038",
+      "amount": 6153.93,
+      "ts": 1782145215.605887,
+      "layer": 2
+    },
+    {
+      "src": "SA0000020",
+      "dst": "SA0000039",
+      "amount": 5812.39,
+      "ts": 1782145222.167266,
+      "layer": 2
+    },
+    {
+      "src": "SA0000020",
+      "dst": "SA0000040",
+      "amount": 6293.37,
+      "ts": 1782145233.217359,
+      "layer": 2
+    },
+    {
+      "src": "SA0000020",
+      "dst": "SA0000041",
+      "amount": 6429.73,
+      "ts": 1782145253.120516,
+      "layer": 2
+    },
+    {
+      "src": "SA0000016",
+      "dst": "SA0000017",
+      "amount": 44785.82,
+      "ts": 1782159866.364125,
+      "layer": 1
+    },
+    {
+      "src": "SA0000016",
+      "dst": "SA0000018",
+      "amount": 26275.65,
+      "ts": 1782159871.364125,
+      "layer": 1
+    },
+    {
+      "src": "SA0000016",
+      "dst": "SA0000019",
+      "amount": 40754.6,
+      "ts": 1782159892.53562,
+      "layer": 1
+    },
+    {
+      "src": "SA0000016",
+      "dst": "SA0000020",
+      "amount": 41485.78,
+      "ts": 1782159913.155839,
+      "layer": 1
+    },
+    {
+      "src": "SA0000016",
+      "dst": "SA0000021",
+      "amount": 27034.97,
+      "ts": 1782159923.973742,
+      "layer": 1
+    }
+  ],
+  "note": "Largest single mule campaign in the ledger. Layer 0 edges are victim inflows; higher layers are onward dispersal."
+}

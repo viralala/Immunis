@@ -1,0 +1,418 @@
+{
+  "generated_at": "2026-08-30T11:57:21Z",
+  "cases": [
+    {
+      "vector_id": "AV-DIGITAL-ARREST",
+      "txn_id": "F00001348",
+      "ts": 1783711324.648543,
+      "amount": 160408.046875,
+      "rail": "upi_p2p",
+      "persona": "senior",
+      "city": "Pune",
+      "merchant_category": null,
+      "family_median_score": 0.8712,
+      "family_n": 84,
+      "episode": {
+        "kind": "coercion_authority",
+        "channel": "video",
+        "duration_s": 445.0,
+        "turns": [
+          {
+            "speaker": "caller",
+            "text": "I am calling from the CBI financial crimes unit regarding a money laundering complaint registered against your bank account."
+          },
+          {
+            "speaker": "caller",
+            "text": "Do not discuss this with your bank branch. They are also under investigation."
+          },
+          {
+            "speaker": "caller",
+            "text": "You are currently under digital surveillance. Stay on video until the verification is complete."
+          },
+          {
+            "speaker": "caller",
+            "text": "Do not discuss this with your bank branch. They are also under investigation."
+          },
+          {
+            "speaker": "caller",
+            "text": "You must move the funds to a government-monitored safe account so they cannot be seized as evidence."
+          },
+          {
+            "speaker": "victim",
+            "text": "Done. Please confirm you received it."
+          }
+        ]
+      },
+      "score": 0.8692,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9988,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-MULE-LAYER",
+      "txn_id": "F00002110",
+      "ts": 1783949993.121642,
+      "amount": 27925.519531,
+      "rail": "upi_p2p",
+      "persona": "salaried_urban",
+      "city": "Chennai",
+      "merchant_category": null,
+      "family_median_score": 0.8539,
+      "family_n": 63,
+      "episode": null,
+      "score": 0.8677,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9981,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [
+        {
+          "feature": "benef_in_count_1h",
+          "text": "Beneficiary received an unusual number of credits this hour",
+          "value": 6.0,
+          "population_median": 0.0,
+          "contribution": 0.0095,
+          "log_odds_contribution": 0.08
+        }
+      ],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-AITM-OTP",
+      "txn_id": "F00000574",
+      "ts": 1783776127.024711,
+      "amount": 166036.640625,
+      "rail": "card_cnp",
+      "persona": "sme_owner",
+      "city": "Delhi",
+      "merchant_category": "food",
+      "family_median_score": 0.8638,
+      "family_n": 56,
+      "episode": null,
+      "score": 0.871,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9998,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [
+        {
+          "feature": "amount_to_balance",
+          "text": "Transaction consumes an unusual share of available balance",
+          "value": 0.2027,
+          "population_median": 0.0138,
+          "contribution": 0.4584,
+          "log_odds_contribution": 2.263
+        }
+      ],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-BIO-CLONE",
+      "txn_id": "F00001005",
+      "ts": 1784366895.005247,
+      "amount": 150396.4375,
+      "rail": "card_cnp",
+      "persona": "hnw",
+      "city": "Delhi",
+      "merchant_category": "highrisk",
+      "family_median_score": 0.9567,
+      "family_n": 60,
+      "episode": null,
+      "score": 0.8653,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9968,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-AGENT-INJECT",
+      "txn_id": "F00000148",
+      "ts": 1783884869.083062,
+      "amount": 4279.850098,
+      "rail": "agentic",
+      "persona": "sme_owner",
+      "city": "Bengaluru",
+      "merchant_category": "highrisk",
+      "family_median_score": 0.9783,
+      "family_n": 72,
+      "episode": null,
+      "score": 0.9794,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9998,
+      "rule_score": 0.84,
+      "rules_fired": [
+        "R-AGENT-01"
+      ],
+      "reasons": [],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-AGENT-MANDATE",
+      "txn_id": "F00000195",
+      "ts": 1783747894.064416,
+      "amount": 48490.648438,
+      "rail": "agentic",
+      "persona": "senior",
+      "city": "Jaipur",
+      "merchant_category": "cash",
+      "family_median_score": 0.8712,
+      "family_n": 42,
+      "episode": null,
+      "score": 0.9742,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9999,
+      "rule_score": 0.8,
+      "rules_fired": [
+        "R-AGENT-02"
+      ],
+      "reasons": [],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-BIN-ENUM",
+      "txn_id": "F00000643",
+      "ts": 1784310834.368178,
+      "amount": 115.68,
+      "rail": "card_cnp",
+      "persona": "salaried_urban",
+      "city": "London",
+      "merchant_category": "digital",
+      "family_median_score": 0.9817,
+      "family_n": 102,
+      "episode": null,
+      "score": 1.0,
+      "model_score": 1.0,
+      "novelty_percentile": 1.0,
+      "rule_score": 0.86,
+      "rules_fired": [
+        "R-TESTING-01",
+        "R-TAKEOVER-01"
+      ],
+      "reasons": [
+        {
+          "feature": "dist_from_home_km",
+          "text": "Transaction far from the customer's home geography",
+          "value": 8475.0752,
+          "population_median": 4.6349,
+          "contribution": 0.018,
+          "log_odds_contribution": 9.817
+        },
+        {
+          "feature": "is_new_device",
+          "text": "Device never previously seen on this account",
+          "value": 1.0,
+          "population_median": 0.0,
+          "contribution": 0.018,
+          "log_odds_contribution": 9.817
+        },
+        {
+          "feature": "is_new_merchant",
+          "text": "Merchant never previously used by this customer",
+          "value": 1.0,
+          "population_median": 0.0,
+          "contribution": 0.018,
+          "log_odds_contribution": 9.817
+        },
+        {
+          "feature": "typing_variance_ratio",
+          "text": "Interaction cadence unnaturally consistent — possible replay or cloning",
+          "value": 0.3607,
+          "population_median": 0.9631,
+          "contribution": 0.018,
+          "log_odds_contribution": 9.817
+        }
+      ],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-QR-SWAP",
+      "txn_id": "F00002402",
+      "ts": 1784121128.018305,
+      "amount": 3121.060059,
+      "rail": "upi_p2p",
+      "persona": "student",
+      "city": "Delhi",
+      "merchant_category": null,
+      "family_median_score": 0.8431,
+      "family_n": 60,
+      "episode": null,
+      "score": 0.852,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9897,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [
+        {
+          "feature": "benef_dwell_secs",
+          "text": "Funds left the beneficiary within minutes of arriving",
+          "value": 261.368,
+          "population_median": 999999.0,
+          "contribution": 0.0137,
+          "log_odds_contribution": 0.105
+        }
+      ],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-TOKEN-PROV",
+      "txn_id": "F00002945",
+      "ts": 1784333379.986809,
+      "amount": 307429.6875,
+      "rail": "card_cp",
+      "persona": "hnw",
+      "city": "Mumbai",
+      "merchant_category": "cash",
+      "family_median_score": 0.8529,
+      "family_n": 64,
+      "episode": null,
+      "score": 0.8705,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9995,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [
+        {
+          "feature": "amount_to_balance",
+          "text": "Transaction consumes an unusual share of available balance",
+          "value": 0.1845,
+          "population_median": 0.0138,
+          "contribution": 0.133,
+          "log_odds_contribution": 0.872
+        }
+      ],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-FAKE-MERCH",
+      "txn_id": "F00001650",
+      "ts": 1783620226.921246,
+      "amount": 80634.757812,
+      "rail": "card_cnp",
+      "persona": "senior",
+      "city": "Patna",
+      "merchant_category": "luxury",
+      "family_median_score": 0.8631,
+      "family_n": 33,
+      "episode": null,
+      "score": 0.8614,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9947,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-FRIENDLY-FRAUD",
+      "txn_id": "F00001833",
+      "ts": 1783711129.969879,
+      "amount": 102398.398438,
+      "rail": "card_cnp",
+      "persona": "student",
+      "city": "Delhi",
+      "merchant_category": "travel",
+      "family_median_score": 0.8405,
+      "family_n": 74,
+      "episode": null,
+      "score": 0.8431,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9782,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-DEEPFAKE-KYC",
+      "txn_id": "F00001189",
+      "ts": 1783608253.14701,
+      "amount": 50080.128906,
+      "rail": "upi_p2p",
+      "persona": "senior",
+      "city": "Kolkata",
+      "merchant_category": null,
+      "family_median_score": 0.8594,
+      "family_n": 24,
+      "episode": null,
+      "score": 0.8431,
+      "model_score": 0.8431,
+      "novelty_percentile": 0.9326,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [],
+      "decision": "decline"
+    },
+    {
+      "vector_id": "AV-VOICE-CLONE",
+      "txn_id": "F00003211",
+      "ts": 1783801568.448007,
+      "amount": 347152.15625,
+      "rail": "upi_p2p",
+      "persona": "hnw",
+      "city": "Chennai",
+      "merchant_category": null,
+      "family_median_score": 0.8618,
+      "family_n": 56,
+      "episode": {
+        "kind": "kin_distress",
+        "channel": "voice",
+        "duration_s": 635.5,
+        "turns": [
+          {
+            "speaker": "caller",
+            "text": "Bhaiya, my phone broke, this is a friend's number. I need help urgently."
+          },
+          {
+            "speaker": "caller",
+            "text": "Please don't call back on this number, the police have taken my phone."
+          },
+          {
+            "speaker": "caller",
+            "text": "I'm crying, please just do it fast, they won't admit me otherwise."
+          },
+          {
+            "speaker": "caller",
+            "text": "Please don't call back on this number, the police have taken my phone."
+          },
+          {
+            "speaker": "victim",
+            "text": "Sir, my bank is asking me to confirm this is not a scam."
+          },
+          {
+            "speaker": "caller",
+            "text": "Ma'am, obstruction of an active investigation is itself an offence. Select 'yes' and proceed."
+          },
+          {
+            "speaker": "caller",
+            "text": "Send ₹633,292 to this UPI ID, it's my friend's father's account."
+          },
+          {
+            "speaker": "victim",
+            "text": "I'm scared but I'm doing what you said."
+          }
+        ]
+      },
+      "score": 0.8713,
+      "model_score": 0.8431,
+      "novelty_percentile": 1.0,
+      "rule_score": 0.0,
+      "rules_fired": [],
+      "reasons": [
+        {
+          "feature": "dist_from_home_km",
+          "text": "Transaction far from the customer's home geography",
+          "value": 0.0,
+          "population_median": 4.6349,
+          "contribution": 0.6068,
+          "log_odds_contribution": 2.935
+        }
+      ],
+      "decision": "decline"
+    }
+  ]
+}

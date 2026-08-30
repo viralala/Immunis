@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node / Next
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Generated artefacts (regenerate with: python -m immunis.cli run)
+artifacts/*.log
+artifacts/ledger.ndjson.gz
+artifacts/episodes.ndjson.gz
+
+# OS
+.DS_Store
+Thumbs.db

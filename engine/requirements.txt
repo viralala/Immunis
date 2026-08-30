@@ -1,0 +1,15 @@
+# IMMUNIS engine — CPU only, no GPU, no external services.
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+pandas>=2.0
+networkx>=3.0
+
+# API service (optional — the web prototype runs off baked artefacts without it)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+
+# Optional: LLM-assisted vector discovery. The pipeline is fully reproducible
+# without it; set ANTHROPIC_API_KEY and pass --llm to enable.
+# anthropic>=0.40

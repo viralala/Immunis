@@ -1,7 +1,5 @@
 # IMMUNIS — Adversarial Immune System for Payment Networks
 
-**Mastercard Innovation Challenge 2026 · AI Defense Lab for Payment Security**
-
 > We manufacture the fraud that hasn't happened yet, and vaccinate the network before the criminals get there.
 
 Payment fraud defence is reactive because labels arrive *after* the losses: real
